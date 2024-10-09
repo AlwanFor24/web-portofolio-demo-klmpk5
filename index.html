@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kelompok 5 PAW | Demo Bootstrap ( Framework CSS)</title>
+  </head>
+  <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.png" alt="" width="225" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link fw-semibold">Halaman Utama</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link fw-semibold">Tentang Saya</a>
+          </li>
+          <li class="nav-item">
+            <a href="#profile" class="nav-link fw-semibold">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portofolio" class="nav-link fw-semibold">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-link fw-semibold">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a href="#stat" class="nav-link fw-semibold">Mastery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link fw-semibold">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+   <header class="header vh-100 text-center position-relative">
+    <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+      <div class="overlay"><!--buat header::after di style.css--></div>
+
+      <h1 id="typing-text" class="display-1 fw-bold text-white">
+      </h1>
+
+      <p class="roles text-white text-uppercase fs-4">
+        <span>Mahasiswa | </span>
+        <span>Teknik Informatika</span>
+      </p>
+
+      <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+        <div class="d-flex">
+          <div class="me-3">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="text-start">
+            <span>Tentang Saya</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+   </header>
+
+
+   <!--about-->
+   <section id="about" class="about bg-light py-5">
+    <div class="container">
+      <div class="text-center">
+      <h4 class="text-uppercase fw-bold text-primary">Tentang Saya</h4>
+      <hr class="w-25 mx-auto" />
+      <h2 class="mb4">
+        Alwan Maulana Firdaus
+      </h2>
+      </div>
+      <div class="about-content d-flex gap-8 align-items-center h-100">
+        <img src="images/alwan.png" alt="" class="about-img img-fluid rounded-circle"/>
+        <p class="lead">
+        Saya merupakan mahasiswa aktif 
+        Teknik Informatika UIN Sunan Gunung Djati Bandung. 
+        Saat ini saya sudah menginjak di semester 5
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Profile & Skill-->
+  <section id="profile" class="profile my-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-uppercase fw-bold">Profil</h3>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-address-card text-primary"></i>
+                Nama Lengkap : 
+              </h5>
+              <p>Alwan Maulana Firdaus</p>
+            </li>
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+               <i class="fas fa-calendar text-primary"></i>
+               Tanggal Lahir :
+              </h5>
+              <p>April 24, 2003</p>
+            </li>
+
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+               <i class="fas fa-graduation-cap text-primary"></i>
+               Riwayat Pendidikan
+              </h5>
+              <p>SDN Mekarwangi (2008-2015)</p>
+              <p>SMPN 2 Cileunyi (2015-2018)</p>
+              <p>SMAN 1 Cileunyi (2018-2021)</p>
+              <p>UIN Sunan Gunung Djati Bandung (2022-Sekarang)</p>
+            </li>
+
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+               <i class="fas fa-envelope text-primary"></i>
+               Email:
+              </h5>
+              <p>alwanmaulana24@gmail.com</p>
+            </li>
+
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+               <i class="fas fa-phone text-primary"></i>
+               Nomor Handphone:
+              </h5>
+              <p>081289186842</p>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-md-6">
+          <h3 class="text-uppercase fw-bold">Skills</h3>
+          <h5>Java</h5>
+          <div 
+          class="progress mb-4" 
+          role="progressbar"
+          aria-valuenow="100" 
+          aria-valuemin="0"
+          aria-valuemax="100"
+          >
+          <div class="progress-bar" style="width: 80%">80%</div>
+        </div>
+
+
+        <h5>Kotlin</h5>
+          <div 
+          class="progress mb-4" 
+          role="progressbar"
+          aria-valuenow="100" 
+          aria-valuemin="0"
+          aria-valuemax="100"
+          >
+          <div class="progress-bar" style="width: 55%">55%</div>
+        </div>
+
+        <h5>SQL</h5>
+          <div 
+          class="progress mb-4" 
+          role="progressbar"
+          aria-valuenow="100" 
+          aria-valuemin="0"
+          aria-valuemax="100"
+          >
+          <div class="progress-bar" style="width: 70%">70%</div>
+        </div>
+
+        <h5>Python</h5>
+          <div 
+          class="progress mb-4" 
+          role="progressbar"
+          aria-valuenow="100" 
+          aria-valuemin="0"
+          aria-valuemax="100"
+          >
+          <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Portofolio-->
+  <section id="portofolio" class="portofolio py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h4 class="text-uppercase fw-bold text-primary">
+          Portofolio
+        </h4>
+        <hr class="w-25 mx-auto"/>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <project class="shadow-lg rounded-5">
+            <a href="images/cisco_linux_.jpg" data-lightbox="images" data-title="Cisco Linux Course">
+              <img src="images/cisco_linux_.jpg" alt="" class="img-fluid rounded-3">
+            </a>
+          </project>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <project class="shadow-lg rounded-5">
+            <a href="images/dd_design.jpg" data-lightbox="images" data-title="Database Design">
+              <img src="images/dd_design.jpg" alt="" class="img-fluid rounded-3">
+            </a>
+          </project>
+        </div>
+
+
+        <div class="col-md-6 mb-4">
+          <project class="shadow-lg rounded-5">
+            <a href="images/dp_sql.jpg" data-lightbox="images" data-title="Database Programming SQL">
+              <img src="images/dp_sql.jpg" alt="" class="img-fluid rounded-3">
+            </a>
+          </project>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--Services-->
+  <section id="service" class="services text-bg-dark py-5 position-relative">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h4 class="text-uppercase fw-bold text-primary">
+          Services
+        </h4>
+
+        <hr class="w-25 mx-auto"/>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+         <i class="fas fa-database fa-3x text-primary mb-3"></i>
+         <h3 class="fs-3">Backend Developer</h3>
+         <hr class="w-25 mx-auto"/>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <i class="fas fa-laptop fa-3x text-primary mb-3"></i>
+          <h3 class="fs-3">Product Manager</h3>
+          <hr class="w-25 mx-auto"/>
+         </div>
+
+         <div class="col-md-4 text-center">
+          <i class="fas fa-server fa-3x text-primary mb-3"></i>
+          <h3 class="fs-3">Information System Manager</h3>
+          <hr class="w-25 mx-auto"/>
+         </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats-->
+   <section id="stat" class="stats py-5 text-bg-secondary">
+    <div class="container">
+      <div class="row g-0">
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-money-bill fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Worth</h3>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-users fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Trusted</h3>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-chart-simple fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Grow</h3>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-person-rays fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Oriented to Customer</h3>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-shield-halved fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Secure</h3>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-2">
+        <div class="stat text-center border-end border-dark">
+          <i class="fas fa-envelope-circle-check fa-3x mb-3"></i>
+          <h3 class="fs-6 text-uppercase">Updated</h3>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+   </section>
+
+   <!--Contact-->
+   <section id="contact" class="contact text-bg-dark bg-gradient py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="text-center mb-5">
+            <h4 class="text-uppercase fw-bold text-primary">Contact</h4>
+            <hr class="w-25 mx-auto" />
+            <h2 class="mb-4"></h2>
+            <p class="lead">
+             Apabila anda perlu menghubungi saya, silahkan isi form dibawah ini.
+            </p>
+          </div>
+
+          <!--Form-->
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="text" 
+              class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+               id="floatingInputNama" 
+               placeholder="nama">
+              <label for="floatingInputNama">Nama</label>
+            </div>
+
+            <div class="form-floating">
+              <input type="email" 
+              class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+               id="floatingInputEmail" 
+               placeholder="Password">
+               <label for="floatingInputEmail">Email</label>
+            </div>
+
+            <div class="form-floating">
+              <textarea 
+              class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" 
+              placeholder="Leave a comment here" 
+              id="floatingTextarea">
+            </textarea>
+            <label for="floatingTextarea">Pesan</label>
+            </div>
+
+            <div class="mb-3 d-grid">
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="d-flex mt-5">
+        <p class="flex-grow-1">
+          Copyright &copy; 2024
+        </p>
+
+        <div class="hstack gap-2">
+          <a href="https://www.linkedin.com/in/alwan-maulana-firdaus">
+            <i class="fab fa-linkedin fa-2x text-white"></i>
+          </a>
+          <a href=" https://wa.me/qr/D3AUVAOVLKM7E1">
+            <i class="fab fa-whatsapp fa-2x text-white"></i>
+          </a>
+          <a href="https://github.com/AlwanFor24">
+            <i class="fab fa-github fa-2x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
